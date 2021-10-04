@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | IP Address Tracker</title>
+  <link rel="stylesheet" href="./app.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+
+</head>
+<body>
+<header>
+  <h1>IP Address Tracker</h1>
+  <form>
+    <input class="input"  type="text" placeholder="Search for any IP address or domain">
+    <button class="srh-btn"><img src="./images/icon-arrow.svg" alt="arrow" /></button>
+  </form>
+
+  <div class ="load-box">
+    <h2>Loading...</h2>
+  </div>
+  <main class="rslt-box">
+    <div class="ip-box">
+      <p>IP ADDRESS</p>
+      <h2 id="ip">8.8.8.8</h2>
+    </div>
+    <div class="location-box">
+      <p>LOCATION</p>
+      <h2 id="location">Mountain View, California, US</h2>
+    </div>
+    <div class="utc-box">
+      <p>TIMEZONE</p>
+      <h2 id="utc">UTC -07:00</h2>
+    </div>
+    <div class="isp-box">
+      <p>ISP</p>
+      <h2 id="isp">Google LLC</h2>
+    </div>
+  </main>
+</header>
+
+<div id="mapid"></div>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+  <script src="./app.js"></script>
+</body>
+</html>

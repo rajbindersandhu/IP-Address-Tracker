@@ -1,0 +1,93 @@
+body{
+    background-image: url("./images/pattern-bg.png");
+    
+}
+header{
+    text-align: center;
+    padding-top: 30px;
+}
+h1{
+    color:white;
+}
+input{
+    width: 500px;
+    height:30px;
+    padding-left: 2%;
+    border-radius:10px 0 0 10px ;
+}
+.srh-btn{
+    background-color: black;
+    margin-left: -1%;
+    border-radius: 0 10px 10px 0 ;
+    width:40px;
+    height:40px;
+    cursor: pointer;
+}
+main{
+    text-align: center;
+    margin-top: 50px;
+    display:flex;
+    justify-content: space-evenly;
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+    border:none;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    
+}
+.load-box{
+    display:none;
+    text-align: center;
+    font-weight: 900;
+}
+.ip-box{
+    border-right: 1px solid lightgray;
+    padding : 1%;
+    width:100%;
+    
+    
+}
+.location-box{
+    border-right: 1px solid lightgray;
+    padding : 1%;
+    width:100%;
+}
+.utc-box{
+    border-right: 1px solid lightgray;
+    padding : 1%;
+    width:100%;
+}
+.isp-box{
+    padding : 1%;
+    width: 100%;
+}
+p{
+    font-size: 12px;
+}
+#mapid{
+    height: 100vh;
+    margin-top: -50px;
+    z-index: -1;
+
+}
+
+
+.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+
+@media screen and (max-width: 600px) {
+    input{
+        width: 250px;
+       
+    }
+    p{
+        font-size: 10px;
+    }
+    h2{
+        font-size: 20px;
+    }
+    
+}
